@@ -1,0 +1,236 @@
+{
+  "user": {
+    "name": "Paul Caleb",
+    "role": "Administrator",
+    "avatar": "PC",
+    "email": "paul.caleb@company.com"
+  },
+  "overview": {
+    "totalRevenue": 45231.89,
+    "totalOrders": 2350,
+    "totalCustomers": 12543,
+    "conversionRate": 3.2
+  },
+  "revenueData": [
+    { "month": "Jan", "revenue": 4231.89, "profit": 2431.89 },
+    { "month": "Feb", "revenue": 5421.30, "profit": 3321.30 },
+    { "month": "Mar", "revenue": 3891.45, "profit": 2191.45 },
+    { "month": "Apr", "revenue": 6721.23, "profit": 4521.23 },
+    { "month": "May", "revenue": 5932.18, "profit": 3732.18 },
+    { "month": "Jun", "revenue": 7845.67, "profit": 5645.67 }
+  ],
+  "salesData": [
+    { "category": "Electronics", "sales": 12543, "percentage": 45, "fill": "#3b82f6" },
+    { "category": "Clothing", "sales": 8932, "percentage": 32, "fill": "#8b5cf6" },
+    { "category": "Books", "sales": 4321, "percentage": 15, "fill": "#f59e0b" },
+    { "category": "Home", "sales": 2234, "percentage": 8, "fill": "#10b981" }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "type": "success",
+      "icon": "TrendingUp",
+      "title": "Revenue Goal Achieved!",
+      "message": "You've reached 120% of your monthly revenue target",
+      "badge": "New",
+      "time": "2 minutes ago",
+      "gradient": "from-green-500 to-emerald-600",
+      "bgGradient": "from-green-50 to-emerald-50"
+    },
+    {
+      "id": 2,
+      "type": "info",
+      "icon": "Users",
+      "title": "New Customer Milestone",
+      "message": "You now have over 12,500 customers",
+      "badge": "Milestone",
+      "time": "15 minutes ago",
+      "gradient": "from-blue-500 to-cyan-600",
+      "bgGradient": "from-blue-50 to-cyan-50"
+    },
+    {
+      "id": 3,
+      "type": "warning",
+      "icon": "ShoppingBag",
+      "title": "Low Stock Alert",
+      "message": "5 products are running low on inventory",
+      "badge": "Action Required",
+      "time": "1 hour ago",
+      "gradient": "from-orange-500 to-red-600",
+      "bgGradient": "from-orange-50 to-red-50"
+    }
+  ],
+  "headerNotifications": [
+    {
+      "id": 1,
+      "title": "New order received",
+      "message": "Order #ORD-005 for $299.99",
+      "time": "2 minutes ago",
+      "type": "order",
+      "read": false
+    },
+    {
+      "id": 2,
+      "title": "Payment processed",
+      "message": "Payment of $199.50 processed successfully",
+      "time": "15 minutes ago",
+      "type": "payment",
+      "read": false
+    },
+    {
+      "id": 3,
+      "title": "Stock alert",
+      "message": "JavaScript Guide is running low",
+      "time": "1 hour ago",
+      "type": "stock",
+      "read": true
+    },
+    {
+      "id": 4,
+      "title": "Customer review",
+      "message": "New 5-star review on Wireless Headphones",
+      "time": "2 hours ago",
+      "type": "review",
+      "read": true
+    }
+  ],
+  "tabsData": {
+    "performance": [
+      {
+        "type": "revenue",
+        "title": "Revenue Growth",
+        "value": "+15.2%",
+        "description": "Monthly revenue increased significantly compared to last month",
+        "color": "green"
+      },
+      {
+        "type": "customers",
+        "title": "Customer Base",
+        "value": "+8.3%",
+        "description": "New customer acquisition rate is above target",
+        "color": "blue"
+      },
+      {
+        "type": "conversion",
+        "title": "Conversion Rate Optimization",
+        "description": "Your checkout conversion rate has improved by 12% this week",
+        "metrics": [
+          { "label": "Desktop", "value": "3.2%" },
+          { "label": "Mobile", "value": "2.8%" }
+        ],
+        "color": "purple"
+      }
+    ],
+    "inventory": [
+      {
+        "name": "Wireless Headphones",
+        "stock": 15,
+        "status": "low",
+        "threshold": 20
+      },
+      {
+        "name": "JavaScript Guide",
+        "stock": 5,
+        "status": "critical",
+        "threshold": 10
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "stock": 245,
+        "status": "good",
+        "threshold": 50
+      }
+    ],
+    "alerts": [
+      {
+        "id": 1,
+        "title": "Payment Gateway Issue",
+        "message": "3 failed transactions in the last hour",
+        "type": "critical",
+        "time": "2 minutes ago"
+      },
+      {
+        "id": 2,
+        "title": "High Traffic Alert",
+        "message": "Website traffic is 250% above normal",
+        "type": "warning",
+        "time": "15 minutes ago"
+      },
+      {
+        "id": 3,
+        "title": "Sales Milestone",
+        "message": "You've reached 1000 sales this month!",
+        "type": "info",
+        "time": "1 hour ago"
+      }
+    ]
+  },
+  "recentOrders": [
+    {
+      "id": "ORD-001",
+      "customer": "Alice Johnson",
+      "avatar": "AJ",
+      "email": "alice@example.com",
+      "amount": 299.99,
+      "status": "completed",
+      "date": "2024-01-15"
+    },
+    {
+      "id": "ORD-002", 
+      "customer": "Bob Smith",
+      "avatar": "BS",
+      "email": "bob@example.com",
+      "amount": 199.50,
+      "status": "pending",
+      "date": "2024-01-14"
+    },
+    {
+      "id": "ORD-003",
+      "customer": "Carol White",
+      "avatar": "CW", 
+      "email": "carol@example.com",
+      "amount": 449.99,
+      "status": "completed",
+      "date": "2024-01-13"
+    },
+    {
+      "id": "ORD-004",
+      "customer": "David Brown",
+      "avatar": "DB",
+      "email": "david@example.com", 
+      "amount": 129.99,
+      "status": "cancelled",
+      "date": "2024-01-12"
+    }
+  ],
+  "topProducts": [
+    {
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "sales": 1234,
+      "revenue": 61700,
+      "trend": "up"
+    },
+    {
+      "name": "Cotton T-Shirt",
+      "category": "Clothing", 
+      "sales": 987,
+      "revenue": 24675,
+      "trend": "up"
+    },
+    {
+      "name": "JavaScript Guide",
+      "category": "Books",
+      "sales": 543,
+      "revenue": 16290,
+      "trend": "down"
+    },
+    {
+      "name": "Coffee Mug",
+      "category": "Home",
+      "sales": 432,
+      "revenue": 8640,
+      "trend": "up"
+    }
+  ]
+}
